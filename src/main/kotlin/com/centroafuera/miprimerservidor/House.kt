@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue
 import javax.persistence.Id
 
 @Entity
-class House(private var name : String, private var region : String, private var words : String, private var miembros : String) {
+class House(var name : String,var region : String,var words : String, var miembros : String) {
 
     @Id
     @GeneratedValue
